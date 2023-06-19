@@ -16,8 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm run build",
-    "build:netlify": "npm run build",
+    "build": "react-scripts build",
+    "build:netlify": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
