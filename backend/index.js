@@ -8,7 +8,7 @@ app.use(express.urlencoded());
 app.use(cors());
 
 mongoose
-  .connect("mongodb://127.0.0.1:27017/login-database", {
+  .connect("mongodb+srv://kundansingh023230:wFBuT5t3nvAkolax@logindata.aukqdhz.mongodb.net/", {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
