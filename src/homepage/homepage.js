@@ -23,7 +23,7 @@ const deleteTask=(tasktoDelete)=>{
     inputTask.current.value="";
     
   }
-  return(
+  return(<>
   <div class="main">
     <div class="header"><h1>To Do List</h1></div>
     <input ref ={inputTask} class="inputTask"type="text" placeholder="Task..." onChange={(event)=>{setcurrentTask(event.target.value)}}/>
@@ -37,8 +37,10 @@ const deleteTask=(tasktoDelete)=>{
         </div>
       })}
     </ul>
-    <button onClick={navigate('/login')}> Logout </button>
+    
     </div>
+    <button onClick={navigate('/login')}> Logout </button>
+    </>
   )
 }
 export default Homepage;
