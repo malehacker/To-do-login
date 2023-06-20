@@ -1,8 +1,12 @@
 import "./homepage.css";
 import { useState ,useRef} from "react";
 
+import { useNavigate } from 'react-router-dom';
 
 function Homepage(){
+  const navigate = useNavigate();
+  
+  
   const [todoList, settodoList]=useState([]);
   const [ currentTask,setcurrentTask]=useState("");
 
@@ -33,7 +37,7 @@ const deleteTask=(tasktoDelete)=>{
         </div>
       })}
     </ul>
-    <div> Logout </div>
+    <button onClick={navigate('/login')}> Logout </button>
     </div>
   )
 }
