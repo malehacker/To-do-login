@@ -39,7 +39,7 @@ const deleteTask=(tasktoDelete)=>{
     </ul>
     
     </div>
-    <button onClick={navigate('/login')}> Logout </button>
+    <button onClick={navigate('/')}> Logout </button>
     </>
   )
 }
