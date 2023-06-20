@@ -30,8 +30,9 @@ const navigate = useNavigate();
         alert(res.data.message);
         navigate("/login")
       });
+
     } else {
-      alert("invalid input");
+      alert("invalid input form your end");
     }
   };
 
