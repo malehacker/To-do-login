@@ -39,7 +39,7 @@ const deleteTask=(tasktoDelete)=>{
     </ul>
     
     </div>
-    <button onClick={navigate('https://to-do-login2.onrender.com/register')}> Logout </button>
+    <button onClick={() => navigate('/register')}> Logout </button>
     </>
   )
 }
