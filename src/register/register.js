@@ -26,7 +26,7 @@ const navigate = useNavigate();
   const register = () => {
     const { name, email, password, reEnterPassword } = user;
     if (name && email && password && password === reEnterPassword) {
-      axios.post("http://localhost:9002/register", user).then((res) => {
+      axios.post("https://to-do-login2.onrender.com/register", user).then((res) => {
         alert(res.data.message);
         navigate("/login")
       });

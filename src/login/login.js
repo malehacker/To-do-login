@@ -12,7 +12,7 @@ const Login = ({ setLoginUser}) => {
     password: "",
   });
   const login = () => {
-    axios.post("http://localhost:9002/login", user).then((res) => {
+    axios.post("https://to-do-login2.onrender.com/login", user).then((res) => {
       alert(res.data.message);
       setLoginUser(res.data.user)
       navigate('/')  
