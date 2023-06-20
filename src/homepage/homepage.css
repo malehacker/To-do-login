@@ -33,3 +33,15 @@ li{
     height: 50px;
     font-size: 1rem;
 }
+.button {
+    font-size: 120%; /* Make the button 20% larger */
+    color: #ff00ff; /* Set the text color to a colorful value, such as pink */
+    background-color: #ffff00; /* Set the background color to a colorful value, such as yellow */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .button:hover {
+    color: #00ff00; /* Apply a hover effect with a different text color, such as green */
+    background-color: #0000ff; /* Apply a hover effect with a different background color, such as blue */
+  }
