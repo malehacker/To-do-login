@@ -34,7 +34,7 @@ li{
     font-size: 1rem;
 }
 .button {
-    font-size: 120%; /* Make the button 20% larger */
+    font-size: 100%; /* Make the button 20% larger */
     color: #ff00ff; /* Set the text color to a colorful value, such as pink */
     background-color: #ffff00; /* Set the background color to a colorful value, such as yellow */
     border: none;
@@ -45,3 +45,34 @@ li{
     color: #00ff00; /* Apply a hover effect with a different text color, such as green */
     background-color: #0000ff; /* Apply a hover effect with a different background color, such as blue */
   }
+
+  /* Styles for the button */
+.Logout {
+    display: block;
+    width: 200px;
+    height: 60px;
+    font-size: 1.5rem;
+    background-color: blue;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding-left: 20px;
+  }
+  
+  .Logout:hover {
+    background-color: purple;
+  }
+  
+  /* Styles for the button container */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 2rem;
+    
+  }
+
+  
