@@ -30,6 +30,8 @@
     border-radius: 8px;
     outline: none;
     cursor: pointer;
+    width: 590px;
+    align-items : center;
     
 }
 .checkbox-wrapper {
